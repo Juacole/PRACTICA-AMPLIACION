@@ -59,6 +59,7 @@ public class WebsiteDossier {
             }
         } else {
             System.err.println("URL no valida, la URL debe comenzar con www. y terminar con .es, por favor ingrese una URL valida.");
+            this.URL="";
         }
     }
 
@@ -89,5 +90,40 @@ public class WebsiteDossier {
         } else {
             this.DNI=DNI;
         }
+    }
+
+    public WebsiteDossier clone(){
+        WebsiteDossier clone = new WebsiteDossier();
+        clone.nombrePag=this.nombrePag;
+        clone.codigo=this.codigo;
+        clone.DNI=this.DNI;
+        clone.URL=this.URL;
+
+        return clone;
+    }
+
+    public boolean equals(WebsiteDossier comparacion){
+        if(!this.nombrePag.equals(comparacion.nombrePag)){
+            return false;
+        }
+
+        if (!this.codigo.equals(comparacion.codigo)) {
+            return false;
+        }
+
+        if(!this.URL.equals(comparacion.URL)){
+            return false;
+        }
+
+        if(!this.DNI.equals(comparacion.DNI)){
+            return false;
+        }
+
+        return true;
+    }
+
+    public String toString(){
+        String descripcion = "El nombre de la pagina es " + nombrePag + ", su URL es " + URL + ", el codigo de la pagina web es " + codigo + " y el DNI del propietario es " + DNI;
+        return descripcion;
     }
 }
