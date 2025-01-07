@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da1684f8-2e8a-400b-888c-85585a5e7a8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Facturas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GestorWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Propietarios.java" afterDir="false" />
+    <list default="true" id="da1684f8-2e8a-400b-888c-85585a5e7a8a" name="Changes" comment="Se sube practica de ampliacion con las clases WebsiteDossier, Propietarios, Facturas y GestorWeb, incluye un fichero main.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facturas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Facturas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GestorWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestorWeb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Propietarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Propietarios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WebsiteDossier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebsiteDossier.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +39,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Propietarios.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WebsiteDossier.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -46,9 +48,23 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Hp/Desktop/DAM/PROGRAMACION/ACTIVIDAD-AMPLIACION/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ACTIVIDAD-AMPLIACION" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Propietarios" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Propietarios" />
+      <module name="ACTIVIDAD-AMPLIACION" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebsiteDossier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WebsiteDossier" />
       <module name="ACTIVIDAD-AMPLIACION" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -57,6 +73,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Propietarios" />
+        <item itemvalue="Application.WebsiteDossier" />
       </list>
     </recent_temporary>
   </component>
@@ -70,5 +88,9 @@
       <updated>1734950411215</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se sube practica de ampliacion con las clases WebsiteDossier, Propietarios, Facturas y GestorWeb, incluye un fichero main." />
+    <option name="LAST_COMMIT_MESSAGE" value="Se sube practica de ampliacion con las clases WebsiteDossier, Propietarios, Facturas y GestorWeb, incluye un fichero main." />
   </component>
 </project>
